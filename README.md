@@ -144,7 +144,7 @@ ros2 run aruco_detector controller_node
 The image below shows the actual my working setup. how I placed the aruco codes and camera.
 
 <p align="center">
-  <img src="images/Aruco_setup.jpeg" width="400">
+  <img src="images/Aruco_setup.png" width="400">
 </p>
 ![Output Image](images/output.png)
 
@@ -152,9 +152,9 @@ The image below shows the actual my working setup. how I placed the aruco codes 
 
 ## Final Working video of the project
 
-<a href="images/video.webm">
-  
-</a>
+
+  <video src="images/video.webm" controls width="700"></video>
+
 
 
 
