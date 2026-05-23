@@ -48,7 +48,7 @@ Install the app from the playstore in the mobile phone
 <p align="center">
   <img src="images/IP_webcam.jpeg" width="400">
 </p>
-![Output Image](images/output.png)
+
 
 ---
 ## You can set the video resolution and size in the app as shown below
@@ -64,7 +64,7 @@ Install the app from the playstore in the mobile phone
 <p align="center">
   <img src="images/IPV4.jpeg" width="400">
 </p>
-![Output Image](images/output.png)
+![Output Image](images/IPV4.jpeg)
 
 ---
 
