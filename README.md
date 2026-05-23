@@ -1,21 +1,13 @@
-# indoor_navigation_system
-
-In this pproject i have built the any system using camera that allows our system to know the excet location of our robot in a define arena. Arena is a predefine area whos corners are marked using Aruco marker. We have same mark on the robot too, the continueous processing on the feed of the camera is done to know the location of the robot. System is built in the ROS2 enviornment and the robot contain ESP32 as the microcontroller board, so we sended orentation and linear movment coordinates to the robt over wifi. All the computation is done on the laptop as we have created a local network over wifi for the data transfer.
-
-This project implements an indoor autonomous navigation system using ROS2. 
-All processing is done on a laptop, and movement commands are sent to the robot.
-
-
 # Project Name
 
-Short one-line description of the project.
+In this project i have built the any system using camera that allows our system to know the excet location of our robot in a define arena. Arena is a predefine area whos corners are marked using Aruco marker. We have same mark on the robot too, the continueous processing on the feed of the camera is done to know the location of the robot. System is built in the ROS2 enviornment and the robot contain ESP32 as the microcontroller board, so we sended orentation and linear movment coordinates to the robt over wifi. All the computation is done on the laptop as we have created a local network over wifi for the data transfer.
 
 Example:
 A ROS2-based indoor mapping and vision system using smartphone camera streaming and OpenCV.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Real-time camera streaming
 - ROS2 publisher/subscriber communication
@@ -26,7 +18,7 @@ A ROS2-based indoor mapping and vision system using smartphone camera streaming 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - ROS2 Humble
 - Python / C++
@@ -36,7 +28,7 @@ A ROS2-based indoor mapping and vision system using smartphone camera streaming 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 project_name/
@@ -51,13 +43,13 @@ project_name/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/project_name.git
-cd project_name
+https://github.com/krishna-177/indoor_navigation_system.git
+cd indoor_navigation_system
 ```
 
 ### 2. Build Workspace
@@ -74,31 +66,30 @@ source install/setup.bash
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
-### Run Publisher Node
-
-```bash
-ros2 run package_name publisher_node
-```
-
-### Run Subscriber Node
+### Run Aruco detector Node
 
 ```bash
-ros2 run package_name subscriber_node
+ros2 run aruco_detector aruco_robot_pose
 ```
+
+### Run Clickable Window Node
+
+```bash
+ros2 run aruco_detector goal_click_node
+```
+
+
+### Run Controlling Node
+
+```bash
+ros2 run aruco_detector controller_node
+```
+
 
 ---
 
-## 📸 Output
-
-Add screenshots or GIFs here.
-
-Example:
-
-![Output Image](images/output.png)
-
----
 
 ## 🧠 How It Works
 
@@ -128,14 +119,9 @@ Pull requests are welcome.
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 👨‍💻 Author
 
-Your Name  
+Patel Krishna Sanjaykumar
 Electronics & Communication Engineering  
 Dharmsinh Desai University
