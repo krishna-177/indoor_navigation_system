@@ -48,7 +48,7 @@ project_name/
 ### 1. Clone Repository
 
 ```bash
-https://github.com/krishna-177/indoor_navigation_system.git
+git clone https://github.com/krishna-177/indoor_navigation_system.git
 cd indoor_navigation_system
 ```
 
@@ -68,6 +68,24 @@ source install/setup.bash
 
 ## Running the Project
 
+### Run for the getting the Camera stream.
+Make sure that you have both laptop and mobile phone connected on the same network
+// use the IP which will be displayed on the mobile screen when it start the server for streaming.
+
+```bash
+ros2 run my_camera ip_stream_node --ip 192.168.1.8:8080 
+```
+
+
+
+### Run Aruco detector Node
+Run this command first and then start the robot having the ESP32. Also once again make sure the ESP32 connect to the same network that of laptop and mobile connected to.
+
+```bash
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+```
+
+
 ### Run Aruco detector Node
 
 ```bash
@@ -79,6 +97,7 @@ ros2 run aruco_detector aruco_robot_pose
 ```bash
 ros2 run aruco_detector goal_click_node
 ```
+
 
 
 ### Run Controlling Node
