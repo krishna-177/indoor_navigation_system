@@ -150,6 +150,22 @@ The image below shows the actual my working setup. how I placed the aruco codes 
 
 ---
 
+## Bot used
+
+This is the the bot baded on the ESP32 wroom module having capablity to connect with wifi. I will put Aruco marker on the top of this bot so that i can locate its position and orientation. 
+This Bot consist of...
+1) ESP32 Wroom
+2) TB66 Motor driver
+3) 2- N20 motor
+4) 2S lithium ion batt
+
+<p align="center">
+  <img src="images/Bot.jpeg" width="400">
+</p>
+![Output Image](images/output.png)
+
+---
+
 ## Final Working video of the project
 
 <a href="images/video.webm">
