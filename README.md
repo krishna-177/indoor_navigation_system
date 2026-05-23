@@ -94,7 +94,7 @@ source install/setup.bash
 
 ## Running the Project
 
-### E sp32 code
+### ESP32 code
 Code for the ESP32 is in side the aruco_detector folder. Just copy paste this code. Change the wifi credentials in the code according to yours.
 
 
@@ -138,6 +138,24 @@ ros2 run aruco_detector controller_node
 
 
 ---
+
+## Working Setup
+
+The image below shows the actual my working setup. how I placed the aruco codes and camera.
+
+<p align="center">
+  <img src="images/Aruco_setup.jpeg" width="400">
+</p>
+![Output Image](images/output.png)
+
+---
+
+## Final Working video of the project
+
+<a href="images/video.webm">
+  
+</a>
+
 
 
 ## 🧠 How It Works
