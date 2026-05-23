@@ -51,6 +51,24 @@ Install the app from the playstore in the mobile phone
 ![Output Image](images/output.png)
 
 ---
+## You can set the video resolution and size in the app as shown below
+
+<p align="center">
+  <img src="images/IP_webcam_setting.png" width="400">
+</p>
+![Output Image](images/output.png)
+
+---
+## After starting the server from the 3 dots in the top-right corner. You will see the IP address. use this IP address in the below written command Camera Stream
+
+<p align="center">
+  <img src="images/IPV4.jpeg" width="400">
+</p>
+![Output Image](images/output.png)
+
+---
+
+
 ## Installation
 
 ### 1. Clone Repository
