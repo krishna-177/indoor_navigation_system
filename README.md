@@ -68,6 +68,10 @@ source install/setup.bash
 
 ## Running the Project
 
+### E sp32 code
+Code for the ESP32 is in side the aruco_detector folder. Just copy paste this code. Change the wifi credentials in the code according to yours.
+
+
 ### Run for the getting the Camera stream.
 Make sure that you have both laptop and mobile phone connected on the same network
 // use the IP which will be displayed on the mobile screen when it start the server for streaming.
