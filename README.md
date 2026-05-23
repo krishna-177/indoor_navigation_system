@@ -56,7 +56,6 @@ Install the app from the playstore in the mobile phone
 <p align="center">
   <img src="images/IP_webcam_setting.png" width="400">
 </p>
-![Output Image](images/output.png)
 
 ---
 ## After starting the server from the 3 dots in the top-right corner. You will see the IP address. use this IP address in the below written command Camera Stream
@@ -64,7 +63,7 @@ Install the app from the playstore in the mobile phone
 <p align="center">
   <img src="images/IPV4.jpeg" width="400">
 </p>
-![Output Image](images/IPV4.jpeg)
+
 
 ---
 
@@ -146,7 +145,7 @@ The image below shows the actual my working setup. how I placed the aruco codes 
 <p align="center">
   <img src="images/Aruco_setup.png" width="400">
 </p>
-![Output Image](images/output.png)
+
 
 ---
 
@@ -162,7 +161,7 @@ This Bot consist of...
 <p align="center">
   <img src="images/Bot.jpeg" width="400">
 </p>
-![Output Image](images/output.png)
+
 
 ---
 
