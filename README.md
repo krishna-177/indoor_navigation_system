@@ -152,8 +152,9 @@ The image below shows the actual my working setup. how I placed the aruco codes 
 
 ## Final Working video of the project
 
-
-  <video src="images/video.webm" controls width="700"></video>
+<a href="images/video.webm">
+  <img src="images/Aruco_setup.png" width="600">
+</a>
 
 
 
