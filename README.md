@@ -42,7 +42,15 @@ project_name/
 ```
 
 ---
+## 📸 Installation of the IP Webcam app
 
+Install the app from the playstore in the mobile phone
+<p align="center">
+  <img src="images/IP_webcam.jpeg" width="400">
+</p>
+![Output Image](images/output.png)
+
+---
 ## Installation
 
 ### 1. Clone Repository
